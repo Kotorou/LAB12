@@ -1,5 +1,4 @@
 #include<iostream>
-
 using namespace std;
 
 void mySwap(int &,int &); 
@@ -14,4 +13,10 @@ int main(){
 	cout << "x = " << x << ", y = " << y << "\n";
 	
 	return 0;
+}
+ 
+int mySwap(int &x,int &y){
+	int z = y;
+	 y = x;
+	 x= z;
 }
